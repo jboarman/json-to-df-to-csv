@@ -24,3 +24,7 @@ JSON data into CSV format via pandas DataFrames.
 
     make
 
+### Use
+
+    make run
+

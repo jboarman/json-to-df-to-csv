@@ -158,7 +158,7 @@ df = df.sort_values(['taxpayerId'])
 
 # dump dataframes to JSON
 with open('./tax_payer_output.json', 'w') as output_file:
-    df.to_json(output_file, orient='records')
+    df.to_json(output_file, orient='records', lines=True)
 
 # dump dataframes to CSV
 with open('./tax_payer_output.csv', 'w') as output_file:
